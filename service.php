@@ -1,19 +1,17 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-
  <!-- head Start -->
  <?php include 'view/common/head.php' ?>
-
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
     <?php include 'view/common/navbar.php' ?>
-     <!-- Navbar Start -->
+    <!-- Navbar Start -->
      
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
@@ -35,18 +33,16 @@
     <!-- Page Header Start -->
     
     <!-- Services Start -->
-    <?php include 'view/common/service_html.php' ?>
+    <?php include 'view/common/service.php' ?>
     <!-- Services End -->
 
-        <!-- Testimonial Start -->
-        <?php include 'view/common/testimonial.php' ?>
+    <!-- Testimonial Start -->
+    <?php include 'view/common/testimonials.php' ?>
     <!-- Testimonial End -->
 
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
-     <!-- footer end -->
+    <!-- footer end -->
      </body>
-
 </html>
 

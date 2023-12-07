@@ -1,14 +1,12 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-
  <!-- head Start -->
  <?php include 'view/common/head.php' ?>
-
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
@@ -48,8 +46,6 @@
 
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
      <!-- footer end -->
-     </body>
-
+    </body>
 </html>

@@ -1,3 +1,5 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,15 +8,12 @@
 
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
     
     <!-- Navbar Start -->
     <?php include 'view/common/navbar.php' ?>
      <!-- Navbar Start -->
-
 
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
@@ -34,7 +33,6 @@
         </div>
     </div>
     <!-- Page Header Start -->
-
 
     <!-- Blog Start -->
     <div class="container py-5">
@@ -372,10 +370,9 @@
     </div>
     <!-- Blog End -->
 
-         <!-- footer Start -->
+    <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
-<!-- footer end -->
+    <!-- footer end -->
 </body>
 
 </html>

@@ -1,20 +1,18 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-
  <!-- head Start -->
  <?php include 'view/common/head.php' ?>
-
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
 
     
     <!-- Navbar Start -->
     <?php include 'view/common/navbar.php' ?>
-     <!-- Navbar Start -->
+    <!-- Navbar Start -->
 
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
@@ -35,7 +33,7 @@
     </div>
     <!-- Page Header Start -->
 
-      <!-- Contact Start -->
+    <!-- Contact Start -->
     <div class="container-fluid py-5">
         <div class="container" style="max-width: 900px;">
             <div class="row">
@@ -104,11 +102,8 @@
     </div>
     <!-- Contact End -->
 
-
-    
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
      <!-- footer end -->
      </body>
 

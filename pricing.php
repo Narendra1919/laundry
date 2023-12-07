@@ -1,3 +1,5 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,17 +8,15 @@
 
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
 
     
     <!-- Navbar Start -->
     <?php include 'view/common/navbar.php' ?>
-     <!-- Navbar Start -->
+    <!-- Navbar Start -->
 
-         <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
         <div class="container py-5">
             <div class="row align-items-center py-4">
@@ -34,15 +34,13 @@
         </div>
     </div>
     <!-- Page Header Start -->
-
-     
+   
     <!-- Pricing Plan Start -->
     <?php include 'view/common/pricing_plan.php' ?>
     <!-- Pricing Plan End -->
     
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
      <!-- footer end -->
      </body>
 

@@ -1,27 +1,21 @@
+<?php include 'helper/session.php' ?>
+<?php include 'helper/conn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-
  <!-- head Start -->
  <?php include 'view/common/head.php' ?>
-
+ 
 <body>
     <!-- Topbar Start -->
-
     <?php include 'view/common/topbar.php' ?>
- 
     <!-- Topbar End -->
-
-
-
     
     <!-- Navbar Start -->
     <?php include 'view/common/navbar.php' ?>
      <!-- Navbar Start -->
 
-
     <!-- Carousel start -->
-
-<div class="container-fluid p-0">
+    <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -59,7 +53,6 @@
     </div>
     <!-- Carousel End -->
 
-
     <!-- Contact Info Start -->
     <div class="container-fluid contact-info mt-5 mb-4">
         <div class="container" style="padding: 0 30px;">
@@ -95,12 +88,10 @@
         </div>
     </div>
     <!-- Contact Info End -->
-
-    
+   
     <!-- Services Start -->
-    <?php include 'view/common/service_html.php' ?>
+    <?php include 'view/common/service.php' ?>
     <!-- Services End -->
-
 
     <!-- About Start -->
     <?php include 'view/common/about_section.php' ?>
@@ -110,21 +101,17 @@
     <?php include 'view/common/features.php' ?>
     <!-- Features End -->
 
-
     <!-- Working Process Start -->
     <?php include 'view/common/working_process.php' ?>
     <!-- Working Process End -->
-
 
     <!-- Pricing Plan Start -->
     <?php include 'view/common/pricing_plan.php' ?>
     <!-- Pricing Plan End -->
 
-
     <!-- Testimonial Start -->
-    <?php include 'view/common/testimonial.php' ?>
+    <?php include 'view/common/testimonials.php' ?>
     <!-- Testimonial End -->
-
 
     <!-- Blog Start -->
     <div class="container-fluid mt-5 pb-2">
@@ -183,11 +170,10 @@
             </div>
         </div>
     </div>
-    
+
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
-
-     <!-- footer end -->
+    <!-- footer end -->
      </body>
 
 </html>

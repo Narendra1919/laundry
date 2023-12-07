@@ -183,6 +183,7 @@
             </div>
         </div>
     </div>
+    
     <!-- footer Start -->
     <?php include 'view/common/footer.php' ?>
 

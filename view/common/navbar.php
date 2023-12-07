@@ -9,10 +9,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="pricing.html" class="nav-item nav-link">Pricing</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="service.php" class="nav-item nav-link">Services</a>
+                        <a href="pricing.php" class="nav-item nav-link">Pricing</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
@@ -20,7 +20,7 @@
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>

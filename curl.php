@@ -28,16 +28,6 @@ curl_close($ch);
 
 $data = json_decode($response, true);
 
-if(isset($data["photos"]) && is_array($data["photos"]))
-{
-    foreach ($data["photos"] as $photo) {
-        $imageUrl=$photo["src"]["medium"];
-        $file = '<img src="' . $imageUrl . '" alt="Pexels Image">';
-    }
-}
-else{
-    echo "no photo found";
-}
 ?>
 <?php include 'helper/session.php' ?>
 <?php include 'helper/conn.php' ?>
@@ -72,7 +62,7 @@ else{
                         </div>
                     </div>
             <?php       
-                }
+                   }
                 }
             else {
                      echo "No photos found.";

@@ -53,14 +53,14 @@ $data = json_decode($response, true);
                 foreach ($data["photos"] as $photo) {
                     $imageUrl = $photo["src"]["medium"];
             ?>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                            <img src="<?php echo $imageUrl; ?>" class="w-100" />
-                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-                            </a>
-                        </div>
-                    </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <a href="detail.php?image=<?php echo urlencode($photo["src"]["large"]); ?>" target="blank"> 
+               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                  <img src="<?php echo $imageUrl; ?>" class="w-100" />
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+               </div>
+            </a>
+         </div>
             <?php       
                    }
                 }

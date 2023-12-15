@@ -18,8 +18,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, ["Authorization: $apiKey"]);
 // Execute cURL session and fetch the response
 $response = curl_exec($ch);
 
-echo $response;
-
 // Check for cURL errors
 if (curl_errno($ch)) {
     echo 'Curl error: ' . curl_error($ch);

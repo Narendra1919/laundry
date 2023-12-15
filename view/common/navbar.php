@@ -9,7 +9,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="<?php if(isset($_SESSION["name"])) { ?>home.php<?php } else { ?>index.php<?php } ?>" class="nav-item nav-link active">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="service.php" class="nav-item nav-link">Services</a>
                         <a href="pricing.php" class="nav-item nav-link">Pricing</a>
@@ -21,6 +21,24 @@
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
+
+
+                        <div class="nav-item dropdown">
+                            <a href="login.php" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                  <?php 
+                                    if(isset($_SESSION["name"])) echo $_SESSION["name"]; 
+                                    else echo "Login"; 
+                                  ?>
+                            </a>
+                            <div class="dropdown-menu border-0 rounded-0 m-0">
+                                <a href="<?php if(isset($_SESSION["name"])) { ?>logout.php<?php } else { ?>login.php<?php } ?>" class="dropdown-item">
+                                    <?php 
+                                      if(isset($_SESSION["name"])) echo "Log Out"; 
+                                      else echo "Sign in"; 
+                                    ?>
+                                </a>
+                            </div>
+                        </div>            
                     </div>
                 </div>
             </nav>
